@@ -46,7 +46,7 @@ router.get(/.*/, async (req: Request, res: Response) => {
         <!DOCTYPE html>
         <html>
             <head>
-                <title>${join(basename(dirname(path)), basename(path))}</title>
+                <title>${basename(path)}</title>
                 <link rel="stylesheet" type="text/css" href="/static/style.css"/>
                 <link rel="stylesheet" type="text/css" href="/static/highlight.css">
                 <link rel="stylesheet" type="text/css" href="/static/katex/katex.css">
